@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>El Restaurante</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+	<!-- font awesome cdn link-->
+	<link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+
+</head>
+<body>
+
+<header>
+    <a href ="#" class="logo"><i class="fas fa-utensils"></i>El Rest'rante</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+            
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- header section ends-->
+
+<!--search form-->
+<form action ="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+
+<!--home section starts-->
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+
+                <div class="content">
+                    <span>Our special dishes</span>
+                    <h3>Spicy Honey-Roasted Chicken</h3>
+                    <p>Spicy-honey roasted chicken is a delicious dish that combines the warmth of honey with the kick of spices to create a mouthwatering and flavorful roasted chicken. </p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="pictures/manok.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+
+                <div class="content">
+                    <span>Our special dishes</span>
+                    <h3>Lechon belly</h3>
+                    <p>Lechon belly is a popular Filipino dish that consists of a whole pig's belly, deboned and stuffed with various herbs, spices, and aromatics, then roasted until crispy and golden brown. It is a beloved dish in the Philippines and is often served during special occasions and celebrations, such as fiestas, family gatherings, and holidays.</p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="pictures/belly.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+
+                <div class="content">
+                    <span>Our special dishes</span>
+                    <h3>Lechon Kawali</h3>
+                    <p>Lechon kawali is a popular Filipino dish that consists of deep-fried pork belly, resulting in crispy, flavorful meat with a crunchy skin. It is a beloved dish in the Philippines and is often enjoyed as a main course or as a delicious appetizer or snack.</p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="pictures/kaw.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+</section>
+
+
+<!--home section ends-->
+
+<!--dishes section starts-->
+<section class="dishes" id="dishes">
+    <h3 class="sub-heading">Our Dishes</h3>
+    <h1 class="heading">Popular Dishes</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pictures/kushiyaki.jpg" alt="" width="80%">
+            <h3>Kushiyaki</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>₱20</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pictures/crab.jpg" alt="" width="80%">
+            <h3>Crab Cake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>₱30</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pictures/sand.png" alt="" width="80%">
+            <h3>BLT Sandwich</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>₱30</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pictures/pie.png" alt="" width="80%">
+            <h3>Apple Pie</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>₱30</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+</section>
+<!--dishes section ends-->
+
+<!--about section starts-->
+<section class="about" id="about">
+    <h3 class="sub-heading">about us</h3>
+    <h1 class="heading">why choose us?</h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="pictures/baboy.jpeg" alt="" width="60%">
+        </div>
+
+        <div class="content">
+            <h3>best food in the country</h3>
+            <p>If you're looking for an unforgettable dining experience, look no further than our restaurant! With our tantalizing menu of delicious and diverse cuisines, impeccable service, and welcoming ambiance, we are the perfect choice for foodies and casual diners alike. Our skilled chefs use only the freshest ingredients, ensuring that each dish is bursting with flavor and made to perfection. Whether you're craving a juicy steak, a mouthwatering pasta, or a delectable dessert, we have something to satisfy every palate. Our attentive and friendly staff will make you feel right at home, providing top-notch service that will leave you feeling pampered and taken care of.
+                 So why wait? Join us at our restaurant for an unforgettable culinary journey that will leave you craving more. Don't miss out on this exceptional dining experience - choose us today!</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-php"></i>
+                    <span>easy payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+</section>
+<!--about section ends-->
+
+<!--menu section starts-->
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading">our menu</h3>
+    <h1 class="heading">today's specialty</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+
+            <div class="image">
+                <img src="pictures/fried rice.jpeg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Fried Rice</h3>
+                <p> Fried rice is a popular and versatile dish that originated in China but is now enjoyed in many parts of the world. It typically consists of cooked rice that is stir-fried with a variety of ingredients, resulting in a flavorful and aromatic dish.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">₱20</span>
+            </div>
+
+            <div class="image">
+                <img src="pictures/2.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>oven crisp chicken wings</h3>
+                <p> Oven-crisp chicken wings are a delicious and easy-to-make appetizer or main dish that are
+                     cooked in the oven to achieve a crispy and golden-brown texture.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="pice">₱20</span>
+            </div>
+
+            <div class="image">
+                <img src="pictures/3.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Whip Cream cupcake</h3>
+                <p> It is delicate, melt-in-your-mouth texture and is often used to top fruit cakes, chiffon cakes, and other desserts where a lighter frosting is desired</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">₱20</span>
+            </div>
+
+            <div class="image">
+                <img src="pictures/4.png" alt="" >
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>korean style short ribs</h3>
+                <p> The ribs are marinated in a sweet and savory sauce,
+                     then grilled or pan-fried to perfection, resulting in juicy, flavorful meat with a slightly caramelized crust.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="pice">₱20</span>
+            </div>
+
+            <div class="image">
+                <img src="pictures/5.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Blackberry ice cream </h3>
+                <p> It is sweet, tart, and bursting with the natural flavor of blackberries, which provides a delightful contrast to the creamy base. Blackberry ice cream can be enjoyed on its own as a refreshing treat, or used as a topping for desserts like fruit pies, cobblers, or cakes.
+                     It's a popular choice for those who enjoy fruity and tangy flavors in their frozen desserts.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">₱20</span>
+            </div>
+
+            <div class="image">
+                <img src="pictures/6.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Burger</h3>
+                <p>  a classic American sandwich that typically consists of 
+                    a cooked ground meat patty, usually beef, that is placed between two halves of a sliced bun..</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">₱20</span>
+            </div>
+            
+            <div class="image">
+                <img src="pictures/7.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Natural Juice</h3>
+                <p>extract the juice from the fresh produce,
+                    resulting in a liquid that is rich in natural flavors, vitamins, minerals, and antioxidants.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">₱15</span>
+            </div>
+
+            <div class="image">
+                <img src="pictures/8.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Spicy Pizza</h3>
+                <p>This pizzas resembles that You like to keep things interesting and become easily bored when things are redundant.
+                      You like a little spice in your life to keep you on your toes.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">₱30</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!--menu section ends-->
+
+<!--review section starts-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!--custom js file link-->
+<script src="script.js"></script>
+</body>
+</html>
